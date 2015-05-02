@@ -27,6 +27,26 @@ class ViewController: UIViewController {
         })
         }
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var tabBarController = segue.destinationViewController as! UITabBarController
+        
+        if let unwrappedViewcontrollers = tabBarController.viewControllers {
+            
+            var imageSelectionController = unwrappedViewcontrollers[0] as! ImageSelectionViewController
+            imageSelectionController.tabBarItem.image = UIImage(named: "camera-7.png")
+            
+            var imageGradingController = unwrappedViewcontrollers[1] as! ImageGradingViewController
+            imageGradingController.tabBarItem.image = UIImage(named: "character-a-7.png")
+            
+            var gradedImagesController = unwrappedViewcontrollers[2] as! GradedImagesViewController
+            gradedImagesController.tabBarItem.image = UIImage(named: "emoticon-smile-7.png")
+            
+            var settingsController = unwrappedViewcontrollers[3] as! SettingsViewController
+            settingsController.tabBarItem.image = UIImage(named: "gear-7.png")
+        }
+    }
+    
 }
 
 

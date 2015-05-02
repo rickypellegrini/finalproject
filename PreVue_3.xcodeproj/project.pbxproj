@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		13158CC62CBCC604D4659492 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71C487642FCC36B8F950B7B /* libPods.a */; };
 		E901F9421AEC258D006C610A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E901F9411AEC258D006C610A /* PhotosViewController.swift */; };
+		E91823371AF55C9800DE0C48 /* ImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91823361AF55C9800DE0C48 /* ImageSelectionViewController.swift */; };
+		E91823391AF55CAC00DE0C48 /* ImageGradingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91823381AF55CAC00DE0C48 /* ImageGradingViewController.swift */; };
+		E918233B1AF55CBA00DE0C48 /* GradedImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918233A1AF55CBA00DE0C48 /* GradedImagesViewController.swift */; };
+		E918233D1AF55CDD00DE0C48 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918233C1AF55CDD00DE0C48 /* SettingsViewController.swift */; };
+		E91823471AF5608700DE0C48 /* emoticon-smile-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E91823461AF5608700DE0C48 /* emoticon-smile-7.png */; };
+		E91823491AF560A600DE0C48 /* gear-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E91823481AF560A600DE0C48 /* gear-7.png */; };
+		E918234B1AF560C300DE0C48 /* camera-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E918234A1AF560C300DE0C48 /* camera-7.png */; };
+		E918234D1AF560D000DE0C48 /* character-a-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E918234C1AF560D000DE0C48 /* character-a-7.png */; };
 		E942CE791AEC046F00D6D297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E942CE781AEC046F00D6D297 /* AppDelegate.swift */; };
 		E942CE7B1AEC046F00D6D297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E942CE7A1AEC046F00D6D297 /* ViewController.swift */; };
 		E942CE7E1AEC046F00D6D297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E942CE7C1AEC046F00D6D297 /* Main.storyboard */; };
@@ -33,6 +41,14 @@
 		E71C487642FCC36B8F950B7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E901F93E1AEC0EB6006C610A /* PreVue_3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreVue_3-Bridging-Header.h"; sourceTree = "<group>"; };
 		E901F9411AEC258D006C610A /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		E91823361AF55C9800DE0C48 /* ImageSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectionViewController.swift; sourceTree = "<group>"; };
+		E91823381AF55CAC00DE0C48 /* ImageGradingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGradingViewController.swift; sourceTree = "<group>"; };
+		E918233A1AF55CBA00DE0C48 /* GradedImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradedImagesViewController.swift; sourceTree = "<group>"; };
+		E918233C1AF55CDD00DE0C48 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E91823461AF5608700DE0C48 /* emoticon-smile-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoticon-smile-7.png"; sourceTree = "<group>"; };
+		E91823481AF560A600DE0C48 /* gear-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-7.png"; sourceTree = "<group>"; };
+		E918234A1AF560C300DE0C48 /* camera-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-7.png"; sourceTree = "<group>"; };
+		E918234C1AF560D000DE0C48 /* character-a-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "character-a-7.png"; sourceTree = "<group>"; };
 		E942CE731AEC046F00D6D297 /* PreVue_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreVue_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E942CE771AEC046F00D6D297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E942CE781AEC046F00D6D297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +124,10 @@
 				E942CE781AEC046F00D6D297 /* AppDelegate.swift */,
 				E942CE7A1AEC046F00D6D297 /* ViewController.swift */,
 				E942CE7C1AEC046F00D6D297 /* Main.storyboard */,
+				E91823361AF55C9800DE0C48 /* ImageSelectionViewController.swift */,
+				E91823381AF55CAC00DE0C48 /* ImageGradingViewController.swift */,
+				E918233A1AF55CBA00DE0C48 /* GradedImagesViewController.swift */,
+				E918233C1AF55CDD00DE0C48 /* SettingsViewController.swift */,
 				E942CE7F1AEC046F00D6D297 /* Images.xcassets */,
 				E942CE811AEC046F00D6D297 /* LaunchScreen.xib */,
 				E942CE761AEC046F00D6D297 /* Supporting Files */,
@@ -119,6 +139,10 @@
 		E942CE761AEC046F00D6D297 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E91823461AF5608700DE0C48 /* emoticon-smile-7.png */,
+				E91823481AF560A600DE0C48 /* gear-7.png */,
+				E918234A1AF560C300DE0C48 /* camera-7.png */,
+				E918234C1AF560D000DE0C48 /* character-a-7.png */,
 				E942CE771AEC046F00D6D297 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -224,8 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E918234D1AF560D000DE0C48 /* character-a-7.png in Resources */,
+				E91823471AF5608700DE0C48 /* emoticon-smile-7.png in Resources */,
 				E942CE7E1AEC046F00D6D297 /* Main.storyboard in Resources */,
 				E942CE831AEC046F00D6D297 /* LaunchScreen.xib in Resources */,
+				E91823491AF560A600DE0C48 /* gear-7.png in Resources */,
+				E918234B1AF560C300DE0C48 /* camera-7.png in Resources */,
 				E942CE801AEC046F00D6D297 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E918233B1AF55CBA00DE0C48 /* GradedImagesViewController.swift in Sources */,
 				E901F9421AEC258D006C610A /* PhotosViewController.swift in Sources */,
+				E918233D1AF55CDD00DE0C48 /* SettingsViewController.swift in Sources */,
+				E91823391AF55CAC00DE0C48 /* ImageGradingViewController.swift in Sources */,
+				E91823371AF55C9800DE0C48 /* ImageSelectionViewController.swift in Sources */,
 				E942CE7B1AEC046F00D6D297 /* ViewController.swift in Sources */,
 				E942CE791AEC046F00D6D297 /* AppDelegate.swift in Sources */,
 			);

@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="351" y="451"/>
         </scene>
-        <!--Item 2-->
+        <!--Image Grading View Controller-->
         <scene sceneID="Muh-vl-GSm">
             <objects>
-                <viewController id="WmP-Vn-Jwc" sceneMemberID="viewController">
+                <viewController id="WmP-Vn-Jwc" customClass="ImageGradingViewController" customModule="PreVue_3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lKO-4R-DGn"/>
                         <viewControllerLayoutGuide type="bottom" id="bNm-pd-B7d"/>
@@ -55,16 +55,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="o6z-BJ-gV6"/>
+                    <tabBarItem key="tabBarItem" title="" id="o6z-BJ-gV6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51Z-tO-Bap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1816" y="800"/>
+            <point key="canvasLocation" x="1802" y="242"/>
         </scene>
-        <!--Item-->
+        <!--Item 3-->
         <scene sceneID="mb1-rh-ssM">
             <objects>
-                <viewController id="6Bi-sN-Fxi" sceneMemberID="viewController">
+                <viewController title="Item 3" id="6Bi-sN-Fxi" customClass="GradedImagesViewController" customModule="PreVue_3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rcr-xi-fhy"/>
                         <viewControllerLayoutGuide type="bottom" id="6Z9-vR-4rx"/>
@@ -72,18 +72,26 @@
                     <view key="view" contentMode="scaleToFill" id="OJ0-Ar-k22">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5La-mP-1pL">
+                                <rect key="frame" x="168" y="106" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="NDD-be-oF7"/>
+                    <tabBarItem key="tabBarItem" title="" id="NDD-be-oF7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSM-1f-Yop" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1469" y="1530"/>
+            <point key="canvasLocation" x="1802" y="912"/>
         </scene>
-        <!--Item-->
+        <!--Item 4-->
         <scene sceneID="30K-gP-Sev">
             <objects>
-                <viewController id="GEE-Zz-X4Z" sceneMemberID="viewController">
+                <viewController title="Item 4" id="GEE-Zz-X4Z" customClass="SettingsViewController" customModule="PreVue_3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M9O-NM-M7K"/>
                         <viewControllerLayoutGuide type="bottom" id="Hoy-oJ-tAa"/>
@@ -93,16 +101,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="i9h-af-fag"/>
+                    <tabBarItem key="tabBarItem" title="" id="i9h-af-fag"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F9t-GE-t9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2113" y="1536"/>
+            <point key="canvasLocation" x="1802" y="1642"/>
         </scene>
-        <!--Item 1-->
+        <!--Image Selection View Controller-->
         <scene sceneID="123-Ek-Fgc">
             <objects>
-                <viewController id="Ang-gR-cJV" sceneMemberID="viewController">
+                <viewController id="Ang-gR-cJV" customClass="ImageSelectionViewController" customModule="PreVue_3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zYh-SE-B3A"/>
                         <viewControllerLayoutGuide type="bottom" id="FVT-qC-SFJ"/>
@@ -110,21 +118,13 @@
                     <view key="view" contentMode="scaleToFill" id="SMS-Vc-Knx">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DN-lH-esY">
-                                <rect key="frame" x="289" y="181" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="sEO-gD-56m"/>
+                    <tabBarItem key="tabBarItem" title="" id="sEO-gD-56m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTi-MP-Shz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1834" y="120"/>
+            <point key="canvasLocation" x="1820" y="-438"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="41A-gQ-3dI">
